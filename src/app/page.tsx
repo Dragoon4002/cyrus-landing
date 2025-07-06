@@ -13,7 +13,7 @@ const Page =  () => {
         <div className="max-w-6xl mx-auto h-full">
           <div className="grid grid-cols-3 grid-rows-3 gap-8 h-full">
             {/* Large Card - Top Left (2x2) */}
-            <Card className="bg-white/10 border-2 border-[#965dd2] backdrop-blur-sm transition-all duration-300 hover:border-black col-span-2 row-span-2 flex items-center justify-center group overflow-hidden relative">
+            <Card className="bg-black/20 border-2 border-[#965dd2] backdrop-blur-sm transition-all duration-300 hover:border-black col-span-2 row-span-2 flex items-center justify-center group overflow-hidden relative">
               <div
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-cover bg-center bg-no-repeat"
                 style={{
@@ -21,14 +21,14 @@ const Page =  () => {
                 }}
               />
               <CardContent className="p-6 flex items-center justify-center relative group-hover:opacity-0 transition:opacity duration-300 z-10">
-                <div className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-[#965DD2] group-hover:text-[#050301] transition-colors duration-300">
+                <div className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white group-hover:text-[#050301] transition-colors duration-300">
                   Cyrus Protocol
                 </div>
               </CardContent>
             </Card>
 
             {/* Top Right Card */}
-            <Card className="bg-white/10 border-2 border-[#965dd2] backdrop-blur-sm transition-all duration-300 hover:bg-[#965dd2] hover:border-black col-span-1 row-span-1 flex items-center justify-center group">
+            <Card className="bg-black/20 border-2 border-[#965dd2] backdrop-blur-sm transition-all duration-300 hover:bg-[#965dd2] hover:border-black col-span-1 row-span-1 flex items-center justify-center group">
               <Link href="https://cyrus-protocol-demo.vercel.app/" target="_self" rel="noopener noreferrer" className="w-full h-full flex items-center justify-center">
               <CardContent className="p-10 pr-6 group-hover:pl-18 transition-all duration-500 flex items-center justify-center gap-2 relative overflow-hidden">
                 {/* Send icon - starts at left-0 with opacity 0 */}
@@ -42,14 +42,14 @@ const Page =  () => {
                   {/* <span className="text-lg sm:text-xl md:text-2xl font-bold text-[#965DD2] group-hover:translate-x-[calc(50vw)] transition-all duration-300">
                     →
                   </span> */}
-                  <MoveRight className="group-hover:left-0 w-6 h-6 sm:w-8 sm:h-8 text-[#965DD2] group-hover:opacity-0 opacity-100 translate-x-[calc(50%-1rem)] transition-all duration-300" />
+                  <MoveRight className="group-hover:left-0 w-6 h-6 sm:w-8 sm:h-8 text-white group-hover:opacity-0 opacity-100 translate-x-[calc(50%-1rem)] transition-all duration-300" />
                 </div>
               </CardContent>
               </Link>
             </Card>
 
             {/* Long Card - Bottom Right (1x2) */}
-            <Card className="bg-white/10 border-2 border-[#965dd2] backdrop-blur-md transition-all duration-300 hover:bg-[#965dd2] hover:border-black col-span-1 row-span-2 flex items-center justify-center group overflow-hidden relative">
+            <Card className="bg-black/20 border-2 border-[#965DD2] backdrop-blur-md transition-all duration-300 hover:bg-[#965dd2] hover:border-black col-span-1 row-span-2 flex items-center justify-center group overflow-hidden relative">
               {/* Bird Background - Default (Black, Faint) */}
               <div
                 className="absolute inset-0 opacity-30 group-hover:opacity-0 transition-opacity duration-300 bg-contain bg-center bg-no-repeat z-10"
@@ -75,11 +75,11 @@ const Page =  () => {
             </Card>
 
             {/* Bottom Left Card */}
-            <Card className="bg-white/10 border-2 border-[#965dd2] backdrop-blur-sm transition-all duration-300 hover:bg-[#965dd2] hover:border-black col-span-1 row-span-1 flex items-center justify-center group">
+            <Card className="bg-black/20 border-2 border-[#965dd2] backdrop-blur-sm transition-all duration-300 hover:bg-[#965dd2] hover:border-black col-span-1 row-span-1 flex items-center justify-center group">
                 <Link href="https://tattered-elm-7ca.notion.site/Cyrus-Protocol-2279eec45dff8011befdf469a8590b40?source=copy_link" target="_blank" rel="noopener noreferrer" className="w-full h-full flex items-center justify-center">
               <CardContent className="p-6 flex items-center justify-center">
                 <div className="flex items-center space-x-3">
-                  <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-[#965DD2] group-hover:text-[#050301] transition-colors duration-300" />
+                  <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-white group-hover:text-[#050301] transition-colors duration-300" />
                   <span className="text-lg sm:text-xl md:text-2xl font-bold text-white group-hover:text-[#050301] transition-colors duration-300">
                     Docs
                   </span>
@@ -89,11 +89,11 @@ const Page =  () => {
             </Card>
 
             {/* Bottom Center Card */}
-            <Card className="bg-white/10 border-2 border-[#965dd2] backdrop-blur-sm transition-all duration-300 hover:bg-[#965dd2] hover:border-black col-span-1 row-span-1 flex items-center justify-center group">
+            <Card className="bg-black/20 border-2 border-[#965dd2] backdrop-blur-sm transition-all duration-300 hover:bg-[#965dd2] hover:border-black col-span-1 row-span-1 flex items-center justify-center group">
               <Link href="https://github.com/abhirupinspace/Cyrus-protocol-test" target="_blank" rel="noopener noreferrer" className="w-full h-full flex items-center justify-center">
                 <CardContent className="p-6 flex items-center justify-center">
                   <div className="flex items-center space-x-3">
-                    <Github className="w-6 h-6 sm:w-8 sm:h-8 text-[#965DD2] group-hover:text-[#050301] transition-colors duration-300" />
+                    <Github className="w-6 h-6 sm:w-8 sm:h-8 text-white group-hover:text-[#050301] transition-colors duration-300" />
                     <span className="text-lg sm:text-xl md:text-2xl font-bold text-white group-hover:text-[#050301] transition-colors duration-300">
                       Github
                     </span>
