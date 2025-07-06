@@ -66,7 +66,7 @@ const Page =  () => {
               />
               <CardContent className="p-6 flex flex-col items-center justify-center text-white text-center relative z-20 group-hover:opacity-0 transition-opacity duration-300">
                 <div className="text-2xl sm:text-3xl md:text-4xl font-bold  mb-4">
-                  Solana → Aptos
+                  SOLANA → APTOS
                 </div>
                 <p className="text-sm sm:text-base md:text-lg font-semibold">
                   Current live settlement direction. Aptos → Solana coming next.
