@@ -22,7 +22,7 @@ const Page =  () => {
               />
               <CardContent className="p-6 flex items-center justify-center relative group-hover:opacity-0 transition:opacity duration-300 z-10">
                 <div className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white group-hover:text-[#050301] transition-colors duration-300">
-                  Cyrus Protocol
+                  CYRUS PROTOCOL
                 </div>
               </CardContent>
             </Card>
